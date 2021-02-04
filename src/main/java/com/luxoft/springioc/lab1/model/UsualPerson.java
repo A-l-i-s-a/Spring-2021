@@ -24,6 +24,11 @@ public class UsualPerson implements Person {
         this.age = age;
     }
 
+    public UsualPerson(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public void setIsProgrammer(boolean isProgrammer) {
         this.isProgrammer = isProgrammer;
     }
